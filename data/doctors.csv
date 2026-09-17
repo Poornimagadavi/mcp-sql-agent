@@ -1,0 +1,101 @@
+doctor_id,name,specialization,hospital,city,experience_years
+1,Dr. Amit Bansal,Neurology,Metro Medical Center,Ahmedabad,3
+2,Dr. Sneha Das,Orthopedics,Global Health Hospital,Chennai,25
+3,Dr. Karan Mishra,Cardiology,LifeLine Hospital,Pune,16
+4,Dr. Rahul Chopra,Dermatology,CityCare Hospital,Bangalore,21
+5,Dr. Kavya Gupta,General Medicine,LifeLine Hospital,Delhi,29
+6,Dr. Rahul Joshi,Pediatrics,LifeLine Hospital,Ahmedabad,4
+7,Dr. Vikram Malhotra,Orthopedics,Fortis Healthcare,Kolkata,35
+8,Dr. Akash Mehta,Oncology,Apollo Medical Center,Chennai,8
+9,Dr. Sanjay Kapoor,Cardiology,Fortis Healthcare,Chennai,10
+10,Dr. Varun Mishra,Gynecology,GreenView Hospital,Mumbai,33
+11,Dr. Sanjay Kapoor,Gynecology,CityCare Hospital,Hyderabad,29
+12,Dr. Vikram Mehta,Gastroenterology,GreenView Hospital,Jaipur,25
+13,Dr. Manish Chopra,General Medicine,Metro Medical Center,Pune,13
+14,Dr. Kavya Bansal,Gynecology,Apollo Medical Center,Delhi,2
+15,Dr. Karan Khan,Pediatrics,Global Health Hospital,Jaipur,31
+16,Dr. Kavya Patel,Oncology,Sunrise Hospital,Mumbai,9
+17,Dr. Nisha Chopra,Oncology,Metro Medical Center,Mumbai,25
+18,Dr. Vikram Malhotra,General Medicine,Sunrise Hospital,Mumbai,19
+19,Dr. Priya Joshi,General Medicine,LifeLine Hospital,Mumbai,30
+20,Dr. Karan Joshi,Cardiology,Apollo Medical Center,Chennai,4
+21,Dr. Isha Kapoor,Dermatology,Fortis Healthcare,Pune,8
+22,Dr. Rahul Verma,Oncology,LifeLine Hospital,Hyderabad,24
+23,Dr. Nikhil Das,Dermatology,GreenView Hospital,Mumbai,6
+24,Dr. Karan Kulkarni,Cardiology,Fortis Healthcare,Lucknow,8
+25,Dr. Amit Mishra,Neurology,Metro Medical Center,Hyderabad,29
+26,Dr. Amit Sharma,Orthopedics,Sunrise Hospital,Pune,29
+27,Dr. Ananya Iyer,Gastroenterology,Sunrise Hospital,Hyderabad,34
+28,Dr. Isha Nair,Cardiology,Metro Medical Center,Lucknow,32
+29,Dr. Rohan Malhotra,Pediatrics,Fortis Healthcare,Hyderabad,34
+30,Dr. Simran Patel,Gastroenterology,LifeLine Hospital,Delhi,20
+31,Dr. Vikram Sharma,Gynecology,Global Health Hospital,Mumbai,28
+32,Dr. Simran Verma,Pediatrics,Sunrise Hospital,Ahmedabad,22
+33,Dr. Ananya Nair,Dermatology,CityCare Hospital,Chennai,16
+34,Dr. Arjun Das,Pediatrics,GreenView Hospital,Lucknow,28
+35,Dr. Sanjay Das,General Medicine,LifeLine Hospital,Ahmedabad,2
+36,Dr. Karan Desai,General Medicine,Metro Medical Center,Ahmedabad,11
+37,Dr. Nikhil Chopra,Dermatology,Fortis Healthcare,Kolkata,18
+38,Dr. Amit Patel,Gastroenterology,Apollo Medical Center,Ahmedabad,24
+39,Dr. Arjun Iyer,ENT,Metro Medical Center,Hyderabad,20
+40,Dr. Manish Desai,Oncology,GreenView Hospital,Mumbai,11
+41,Dr. Riya Khan,Orthopedics,Metro Medical Center,Lucknow,29
+42,Dr. Kavya Sharma,Pediatrics,GreenView Hospital,Bangalore,26
+43,Dr. Swati Bansal,Orthopedics,LifeLine Hospital,Lucknow,9
+44,Dr. Ananya Kapoor,Dermatology,Global Health Hospital,Pune,20
+45,Dr. Priya Reddy,Gynecology,LifeLine Hospital,Chennai,15
+46,Dr. Kavya Das,Pediatrics,Metro Medical Center,Chennai,8
+47,Dr. Simran Desai,ENT,LifeLine Hospital,Bangalore,27
+48,Dr. Meera Rao,Pediatrics,GreenView Hospital,Delhi,13
+49,Dr. Amit Joshi,Cardiology,Metro Medical Center,Ahmedabad,13
+50,Dr. Simran Mehta,Gynecology,LifeLine Hospital,Kolkata,28
+51,Dr. Rohan Sharma,Gastroenterology,Global Health Hospital,Delhi,34
+52,Dr. Arjun Das,Gastroenterology,LifeLine Hospital,Mumbai,22
+53,Dr. Riya Nair,Orthopedics,GreenView Hospital,Pune,25
+54,Dr. Aarav Das,Gynecology,Global Health Hospital,Delhi,31
+55,Dr. Pooja Nair,Orthopedics,GreenView Hospital,Bangalore,22
+56,Dr. Rahul Joshi,Neurology,CityCare Hospital,Bangalore,31
+57,Dr. Nikhil Nair,Gastroenterology,GreenView Hospital,Bangalore,13
+58,Dr. Nikhil Mishra,Neurology,Metro Medical Center,Delhi,17
+59,Dr. Nikhil Gupta,Cardiology,CityCare Hospital,Kolkata,35
+60,Dr. Meera Kapoor,Neurology,LifeLine Hospital,Hyderabad,9
+61,Dr. Aditya Das,ENT,CityCare Hospital,Ahmedabad,32
+62,Dr. Akash Patel,Pediatrics,LifeLine Hospital,Mumbai,25
+63,Dr. Amit Mishra,Oncology,LifeLine Hospital,Pune,8
+64,Dr. Rahul Singh,Gastroenterology,Apollo Medical Center,Delhi,25
+65,Dr. Kavya Desai,Orthopedics,Global Health Hospital,Ahmedabad,15
+66,Dr. Vikram Mehta,General Medicine,Apollo Medical Center,Ahmedabad,33
+67,Dr. Manish Nair,Pediatrics,Metro Medical Center,Hyderabad,30
+68,Dr. Karan Rao,Pediatrics,Sunrise Hospital,Lucknow,4
+69,Dr. Manish Verma,Orthopedics,Sunrise Hospital,Mumbai,16
+70,Dr. Vivek Kulkarni,Gastroenterology,Metro Medical Center,Hyderabad,21
+71,Dr. Aditya Reddy,Gastroenterology,Sunrise Hospital,Ahmedabad,30
+72,Dr. Simran Joshi,Orthopedics,Fortis Healthcare,Delhi,20
+73,Dr. Nisha Kapoor,Pediatrics,Global Health Hospital,Mumbai,15
+74,Dr. Varun Joshi,Orthopedics,CityCare Hospital,Hyderabad,25
+75,Dr. Shreya Mishra,ENT,LifeLine Hospital,Ahmedabad,12
+76,Dr. Pooja Verma,Gastroenterology,Metro Medical Center,Jaipur,25
+77,Dr. Amit Chopra,Orthopedics,GreenView Hospital,Delhi,32
+78,Dr. Vivek Kapoor,Cardiology,Apollo Medical Center,Chennai,16
+79,Dr. Neha Iyer,Dermatology,Fortis Healthcare,Hyderabad,9
+80,Dr. Sanjay Iyer,General Medicine,GreenView Hospital,Ahmedabad,2
+81,Dr. Akash Mishra,Dermatology,Global Health Hospital,Chennai,4
+82,Dr. Amit Mehta,General Medicine,Apollo Medical Center,Hyderabad,7
+83,Dr. Divya Patel,Oncology,Global Health Hospital,Bangalore,18
+84,Dr. Divya Reddy,Dermatology,Global Health Hospital,Ahmedabad,13
+85,Dr. Aditi Das,Pediatrics,Sunrise Hospital,Pune,14
+86,Dr. Shreya Gupta,Orthopedics,Sunrise Hospital,Mumbai,15
+87,Dr. Sneha Nair,Gastroenterology,GreenView Hospital,Ahmedabad,8
+88,Dr. Isha Patel,General Medicine,Apollo Medical Center,Bangalore,32
+89,Dr. Ananya Rao,Neurology,GreenView Hospital,Bangalore,8
+90,Dr. Isha Khan,Dermatology,GreenView Hospital,Hyderabad,2
+91,Dr. Varun Malhotra,Neurology,GreenView Hospital,Bangalore,31
+92,Dr. Aarav Singh,Gynecology,Sunrise Hospital,Ahmedabad,13
+93,Dr. Karan Mishra,Oncology,Sunrise Hospital,Hyderabad,18
+94,Dr. Nisha Bansal,Dermatology,Metro Medical Center,Hyderabad,34
+95,Dr. Neha Rao,Neurology,Fortis Healthcare,Ahmedabad,2
+96,Dr. Karan Mishra,Oncology,GreenView Hospital,Delhi,13
+97,Dr. Arjun Malhotra,Pediatrics,Apollo Medical Center,Ahmedabad,23
+98,Dr. Sanjay Bansal,Orthopedics,Global Health Hospital,Pune,16
+99,Dr. Rohan Joshi,ENT,Sunrise Hospital,Chennai,35
+100,Dr. Meera Mehta,Pediatrics,Global Health Hospital,Lucknow,11
