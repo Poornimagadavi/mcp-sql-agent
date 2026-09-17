@@ -1,0 +1,229 @@
+{
+  "schema": "healthcare",
+  "tables": {
+    "appointments": {
+      "columns": [
+        {
+          "name": "appointment_id",
+          "type": "integer",
+          "nullable": false
+        },
+        {
+          "name": "patient_id",
+          "type": "integer",
+          "nullable": false
+        },
+        {
+          "name": "doctor_id",
+          "type": "integer",
+          "nullable": false
+        },
+        {
+          "name": "appointment_date",
+          "type": "date",
+          "nullable": false
+        },
+        {
+          "name": "status",
+          "type": "character varying",
+          "nullable": false
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "nullable": true
+        }
+      ],
+      "primary_keys": [
+        "appointment_id"
+      ],
+      "relationships": []
+    },
+    "doctors": {
+      "columns": [
+        {
+          "name": "doctor_id",
+          "type": "integer",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "character varying",
+          "nullable": false
+        },
+        {
+          "name": "specialization",
+          "type": "character varying",
+          "nullable": true
+        },
+        {
+          "name": "hospital",
+          "type": "character varying",
+          "nullable": true
+        },
+        {
+          "name": "city",
+          "type": "character varying",
+          "nullable": true
+        },
+        {
+          "name": "experience_years",
+          "type": "integer",
+          "nullable": true
+        }
+      ],
+      "primary_keys": [
+        "doctor_id"
+      ],
+      "relationships": []
+    },
+    "lab_results": {
+      "columns": [
+        {
+          "name": "result_id",
+          "type": "integer",
+          "nullable": false
+        },
+        {
+          "name": "patient_id",
+          "type": "integer",
+          "nullable": false
+        },
+        {
+          "name": "test_name",
+          "type": "character varying",
+          "nullable": false
+        },
+        {
+          "name": "test_date",
+          "type": "date",
+          "nullable": false
+        },
+        {
+          "name": "result_value",
+          "type": "double precision",
+          "nullable": false
+        },
+        {
+          "name": "unit",
+          "type": "character varying",
+          "nullable": false
+        },
+        {
+          "name": "status",
+          "type": "character varying",
+          "nullable": false
+        }
+      ],
+      "primary_keys": [
+        "result_id"
+      ],
+      "relationships": [
+        {
+          "column": "patient_id",
+          "references": "patients.patient_id"
+        }
+      ]
+    },
+    "patients": {
+      "columns": [
+        {
+          "name": "patient_id",
+          "type": "integer",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "character varying",
+          "nullable": false
+        },
+        {
+          "name": "age",
+          "type": "integer",
+          "nullable": false
+        },
+        {
+          "name": "gender",
+          "type": "character varying",
+          "nullable": true
+        },
+        {
+          "name": "blood_group",
+          "type": "character varying",
+          "nullable": true
+        },
+        {
+          "name": "city",
+          "type": "character varying",
+          "nullable": true
+        },
+        {
+          "name": "phone",
+          "type": "bigint",
+          "nullable": true
+        },
+        {
+          "name": "email",
+          "type": "character varying",
+          "nullable": true
+        }
+      ],
+      "primary_keys": [
+        "patient_id"
+      ],
+      "relationships": []
+    },
+    "prescriptions": {
+      "columns": [
+        {
+          "name": "prescription_id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "patient_id",
+          "type": "bigint",
+          "nullable": true
+        },
+        {
+          "name": "doctor_id",
+          "type": "bigint",
+          "nullable": true
+        },
+        {
+          "name": "medicine",
+          "type": "character varying",
+          "nullable": true
+        },
+        {
+          "name": "dosage",
+          "type": "character varying",
+          "nullable": true
+        },
+        {
+          "name": "duration_days",
+          "type": "integer",
+          "nullable": true
+        },
+        {
+          "name": "prescription_date",
+          "type": "date",
+          "nullable": true
+        }
+      ],
+      "primary_keys": [
+        "prescription_id"
+      ],
+      "relationships": [
+        {
+          "column": "doctor_id",
+          "references": "doctors.doctor_id"
+        },
+        {
+          "column": "patient_id",
+          "references": "patients.patient_id"
+        }
+      ]
+    }
+  }
+}
